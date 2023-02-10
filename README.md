@@ -3,6 +3,7 @@
 
 A simple chatbox application that utilizes the OpenAI ChatGPT API, accessing with CURL and JSON libraries for API communication and the FLTK GUI library for creating a user-friendly interface. With this app, users can engage in natural language conversations with an AI-powered chatbot, powered by the cutting-edge technology of the ChatGPT API. The sleek and intuitive interface, combined with the advanced functionality provided by the API, makes for an engaging and convenient chat experience.
 
+![Snapshots](https://img.shields.io/badge/snapshots-3-brightgreen)
 
 ![ Preview ](https://github.com/vonnogadas/Simple-Chatbox-with-ChatGPT-API-FLTK-/blob/main/preview/preview.png?raw=true) .
 ![ Preview ](https://github.com/vonnogadas/Simple-Chatbox-with-ChatGPT-API-FLTK-/blob/main/preview/preview2.png?raw=true)
