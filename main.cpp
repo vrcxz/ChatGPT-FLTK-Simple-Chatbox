@@ -9,7 +9,7 @@
 #include <FL/fl_draw.H>
 using namespace std;
 std::string response_data;
-std::string apiKey = "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";
+std::string apiKey = "<add your api here>";
 
 
 void input_cb(Fl_Widget*, void* v) {
