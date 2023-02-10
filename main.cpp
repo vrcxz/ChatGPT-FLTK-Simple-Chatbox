@@ -8,8 +8,8 @@
 #include <FL/Fl_Output.H>
 #include <FL/fl_draw.H>
 using namespace std;
-std::string response_data;
-std::string apiKey = "<add your api here>";
+string response_data;
+string apiKey = "<add your api here>";
 
 
 void input_cb(Fl_Widget*, void* v) {
