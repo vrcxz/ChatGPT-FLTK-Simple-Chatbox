@@ -11,6 +11,11 @@ A simple chatbox application that utilizes the OpenAI ChatGPT API, accessing wit
 ![ Preview ](https://github.com/vonnogadas/Simple-Chatbox-with-ChatGPT-API-FLTK-/blob/main/preview/preview2.png?raw=true)
 ![image](https://user-images.githubusercontent.com/74548381/218162383-7d9da5c5-034a-4f61-bfd0-1de2680be6af.png)
 
+## Running the program
+```
+g++ -o main main.cpp -lcurl -lfltk -lfltk_images
+```
+
 ## Installing C++
 C++ is usually pre-installed in most Linux distributions. To check if you have C++ installed, open the terminal and run the following command:
 
