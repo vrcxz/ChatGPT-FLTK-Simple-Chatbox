@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <curl/curl.h>
-#include <nohlmann/json.hpp>
+#include "json/json.hpp"
 #include <FL/Fl.H>
 #include <FL/Fl_Window.H>
 #include <FL/Fl_Input.H>
@@ -17,7 +17,7 @@ using json = nlohmann::json;
 
 
 string response_data;
-string apiKey = "<Add your API Key here>";
+string apiKey = "<add your api key here>";
 
 size_t writeCallback(char* buf, size_t size, size_t nmemb, void* up) {
     for (int c = 0; c<size*nmemb; c++)
@@ -97,19 +97,29 @@ Fl_Box *titletext = new Fl_Box(0, 30, 260, 100, "Prompt:");
   //titletext->labeltype(FL_SHADOW_LABEL);
 
 
-  Fl_Input *input = new Fl_Input(100, 100, 150, 30, "");
+  Fl_Input *input = new Fl_Input(100, 99, 150, 30, "");
+  input->box(FL_FLAT_BOX);
   input->textcolor(fl_rgb_color(250,250,250));
   input->color(fl_rgb_color(70,70,70));
   input->when(FL_WHEN_ENTER_KEY);
   input->callback(input_cb, input);
 
+  Fl_Button buttonSubmit(260,100,50,30,"Enter");
+  buttonSubmit.box(FL_FLAT_BOX);
+  buttonSubmit.labelcolor(fl_rgb_color(250,250,250));
+  buttonSubmit.color(fl_rgb_color(100,100,100));
+  buttonSubmit.callback(input_cb, input);
+  
+
   Fl_Output *output = new Fl_Output(100, 150, 400, 400, "");
-  output->align(FL_ALIGN_TOP);
+ // output->align(FL_ALIGN_TOP);
+  output->box(FL_FLAT_BOX);
+  output->align(FL_ALIGN_LEFT_TOP);
   output->textcolor(fl_rgb_color(250,250,250));
   output->color(fl_rgb_color(70,70,70));
   output->wrap(1);
 
-  
+  win->add(buttonSubmit);  
   win->add(box);
   win->add(titletext);
 
