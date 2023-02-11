@@ -19,7 +19,8 @@ g++ -o main main.cpp -lcurl -lfltk -lfltk_images
 
 ---
 
-## Installing C++
+## Dependencies
+### Installing C++
 C++ is usually pre-installed in most Linux distributions. To check if you have C++ installed, open the terminal and run the following command:
 
 ```
@@ -31,14 +32,14 @@ sudo apt-get update
 sudo apt-get install build-essential
 ```
 
-## Installing curl
+### Installing curl
 Curl is a network transfer library used to retrieve data from web servers. You can install curl by running the following command:
 ```
 sudo apt-get update
 sudo apt-get install curl libcurl4-openssl-dev
 ```
 
-## Installing nlohmann/json
+### Installing nlohmann/json
 nlohmann/json is a header-only library for JSON data format in C++. It is easy to use and does not require any additional installation. To use the library in your project, simply include the following line in your code:
 ```
 #include <nlohmann/json.hpp>
