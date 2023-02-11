@@ -5,7 +5,7 @@ A simple chatbox application that utilizes the OpenAI ChatGPT API, accessing wit
 
 
 
-![Snapshots](https://img.shields.io/badge/snapshots-3-brightgreen)
+![Snapshots](https://img.shields.io/badge/snapshots-6-brightgreen)
 
 ![ Preview ](https://github.com/vonnogadas/ChatGPT-FLTK-Simple-Chatbox/blob/5b244ac788f0fc0061328fb3a7b2f3221d5f2548/preview/npreview1.png) .
 ![ Preview ](https://github.com/vonnogadas/ChatGPT-FLTK-Simple-Chatbox/blob/1a5d5eca6394d256fcbcebd594b842fe27fdc6be/preview/npreview2.png)
