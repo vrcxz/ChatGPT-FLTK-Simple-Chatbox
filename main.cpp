@@ -82,7 +82,7 @@ int main(int argc, char **argv) {
   Fl_Window *win = new Fl_Window(600, 600, "Simple ChatGPT API App");
   win->color(fl_rgb_color(40,40,40));
 
-//resize (make sure you add your own resizing function, searching and debugging this is painful. FLTK apparently doesn't have it's own resize function.
+//gawa nalang bagong resize function, ang tagal bago naayos to. Walang resize function sa fltk.
 Fl_PNG_Image *botimg;
 botimg = new Fl_PNG_Image("whitebotsq.png");
 Fl_Image *small_botimg = botimg->copy(50, 50);
