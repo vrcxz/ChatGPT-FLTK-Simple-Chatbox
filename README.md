@@ -15,6 +15,9 @@ A simple chatbox application that utilizes the OpenAI ChatGPT API, accessing wit
 ```
 g++ -o main main.cpp -lcurl -lfltk -lfltk_images
 ```
+Notes: Before running, make sure to add your api key to the string variable at the top. Otherwise, curl wouldn't be able to connect to chatGPT.
+
+---
 
 ## Installing C++
 C++ is usually pre-installed in most Linux distributions. To check if you have C++ installed, open the terminal and run the following command:
