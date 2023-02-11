@@ -15,7 +15,7 @@ A simple chatbox application that utilizes the OpenAI ChatGPT API, accessing wit
 ```
 g++ -o main main.cpp -lcurl -lfltk -lfltk_images
 ```
-**Notes:** Before running, make sure to add your api key to the string variable at the top. Otherwise, curl wouldn't be able to connect to chatGPT.
+**Notes:** Before running, make sure to add your api key to the string variable *apiKey* at the top of the program. Otherwise, curl wouldn't be able to connect to chatGPT.
 
 ---
 
