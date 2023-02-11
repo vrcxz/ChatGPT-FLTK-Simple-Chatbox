@@ -8,8 +8,8 @@ A simple chatbox application that utilizes the OpenAI ChatGPT API, accessing wit
 ![Snapshots](https://img.shields.io/badge/snapshots-3-brightgreen)
 
 ![ Preview ](https://github.com/vonnogadas/ChatGPT-FLTK-Simple-Chatbox/blob/5b244ac788f0fc0061328fb3a7b2f3221d5f2548/preview/npreview1.png) .
-![ Preview ](https://github.com/vonnogadas/Simple-Chatbox-with-ChatGPT-API-FLTK-/blob/main/preview/preview2.png?raw=true)
-![image](https://user-images.githubusercontent.com/74548381/218162383-7d9da5c5-034a-4f61-bfd0-1de2680be6af.png)
+![ Preview ](https://github.com/vonnogadas/ChatGPT-FLTK-Simple-Chatbox/blob/1a5d5eca6394d256fcbcebd594b842fe27fdc6be/preview/npreview2.png)
+![ Preview ](https://github.com/vonnogadas/ChatGPT-FLTK-Simple-Chatbox/blob/1a5d5eca6394d256fcbcebd594b842fe27fdc6be/preview/npreview3.png)
 
 ## Running the program
 ```
