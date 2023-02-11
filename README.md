@@ -55,4 +55,4 @@ Developed by [Von Ryan Nogadas](https://github.com/vonnogadas).
 License
 -------
 
-ChatGPT-FLTK-Simple-Chatbox is licensed under the GNU License, see [LICENSE.txt](https://github.com/vonnogadas/ChatGPT-FLTK-Simple-Chatbox/blob/main/LICENSE) for more information.
+ChatGPT-FLTK-Simple-Chatbox is licensed under the GNU License, see [LICENSE](https://github.com/vonnogadas/ChatGPT-FLTK-Simple-Chatbox/blob/main/LICENSE) for more information.
