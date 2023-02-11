@@ -47,3 +47,5 @@ FLTK (Fast Light Toolkit) is a C++ graphical user interface library. You can ins
 sudo apt-get update
 sudo apt-get install libfltk1.3-dev
 ```
+
+[fork my repository](https://github.com/user/repository/fork)
