@@ -111,7 +111,7 @@ Fl_Box *titletext = new Fl_Box(0, 30, 260, 100, "Prompt:");
   buttonSubmit.callback(input_cb, input);
   
 
-  Fl_Output *output = new Fl_Output(100, 150, 400, 400, "");
+  Fl_Multiline_Output *output = new Fl_Multiline_Output(100, 150, 400, 400, "");
  // output->align(FL_ALIGN_TOP);
   output->box(FL_FLAT_BOX);
   output->align(FL_ALIGN_LEFT_TOP);
