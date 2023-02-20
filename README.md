@@ -41,7 +41,7 @@ sudo apt-get install curl libcurl4-openssl-dev
 
 ### Installing nlohmann/json
 nlohmann/json is a header-only library for JSON data format in C++. It is easy to use and does not require any additional installation. To use the library in your project, simply include the following line in your code:
-```
+```cpp
 #include <nlohmann/json.hpp>
 ```
 
