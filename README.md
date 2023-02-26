@@ -52,11 +52,3 @@ sudo apt-get update
 sudo apt-get install libfltk1.3-dev
 ```
 
-Credits
--------
-Developed by [Von Ryan Nogadas](https://github.com/vonnogadas).
-
-License
--------
-
-ChatGPT-FLTK-Simple-Chatbox is licensed under the GNU License, see [LICENSE](https://github.com/vonnogadas/ChatGPT-FLTK-Simple-Chatbox/blob/main/LICENSE) for more information.
